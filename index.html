@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Responsive Navbar</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar Section -->
+  <section id="sec-1">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/image_with_transparent_bg-removebg-preview.png" alt="logo" class="header-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec-2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec-3">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec-4">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec-5">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container first" data-aos="fade-right" id="#home">
+      <h1 class="heading">Hi, <span class="content" id="item"></span>
+      </h1>
+      <div class="content-wrapper">
+        <p>Creative Frontend Developer skilled in building responsive, <br>dynamic web applications using ReactJs. Passionate about crafting <br> seamless  user experiences with modern technologies</p>
+      </div>
+      <div class="socials">
+        <p>Get in touch..!</p>
+        <!-- GitHub Icon -->
+        <a href="https://github.com/iqra-2406" target="_blank"><i class="fab fa-github icon"></i></a>
+        <!-- Gmail Icon -->
+        <a href="mailto:iqraik1024@gmail.com"><i class="fas fa-envelope icon"></i></a>
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/iqrajabbar1024/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+      </div>
+    </div>
+  </section>
+  <section id="sec-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-5 col-12" data-aos="fade-right">
+          <div class="image-wrapper">
+            <img src="./images/jpg" alt="AboutImg">
+          </div>
+        </div>
+        <div class="col-md-6 mb-5 col-12">
+          <div class="details" data-aos="fade-left">
+            <div class="wrap">
+              <div class="info">
+                <p class="about">ABOUT ME</p>
+                <h3 class="heading">I'm Iqra Jabbar</h3>
+              </div>
+              <img src="./images/ik47.png" alt="ik47">
+            </div>
+            <p class="para">Driven and creative Frontend Developer passionate about high-quality web applications. Proficient in HTML, CSS, JavaScript, and frameworks like ReactJs with a strong focus on responsive design and seamless user experiences. <br> Eager to learn and adapt to new technologies, constantly refining skills to stay ahead in the ever-evolving web development landscape.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sec-3">
+    <div class="container text-center">
+      <p class="about" data-aos="fade-up">WHAT I DO</p>
+      <h3 class="heading" data-aos="fade-up">SPECIALIZING IN</h3>
+      <div class="row mt-5">
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- HTML Icon -->
+          <i class="fab fa-html5" style="font-size: 4rem; color: #E34F26;"></i>
+          <p class="para mt-2">HTML5</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- CSS Icon -->
+          <i class="fab fa-css3-alt" style="font-size: 4rem; color: #1572B6;"></i>
+          <p class="para mt-2">CSS3</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- SCSS Icon -->
+          <i class="fab fa-sass" style="font-size: 4rem; color: #CC6699;"></i>
+          <p class="para mt-2">SCSS</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- Tailwind Icon -->
+          <img src="./images/tailwind.png" alt="Tailwind CSS" style="width: 60px;">
+          <p class="para mt-2">Tailwind CSS</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- Bootstrap Icon -->
+          <i class="fab fa-bootstrap" style="font-size: 4rem; color: #7952B3;"></i>
+          <p class="para mt-2">Bootstrap 5</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- JavaScript Icon -->
+          <i class="fab fa-js-square" style="font-size: 4rem; color: #F7DF1E;"></i>
+          <p class="para mt-2">JavaScript</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- React Icon -->
+          <i class="fab fa-react" style="font-size: 4rem; color: #61DAFB;"></i>
+          <p class="para mt-2">ReactJS</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+          <!-- Redux Icon -->
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux Toolkit" style="width: 60px;">
+          <p class="para mt-2">Redux Toolkit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sec-4">
+    <div class="container text-center">
+      <p class="about" data-aos="fade-down">PORTFOLIO</p>
+      <h3 class="heading" data-aos="fade-down">LATEST PROJECTS</h3>
+      <div class="row mt-5">
+        <!-- Project 1: Education System -->
+        <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+          <div class="card mb-4">
+            <img src="./images/chaye" class="card-img-top" alt="Education System">
+            <div class="card-body">
+              <h5 class="card-title">Education System</h5>
+              <p class="card-text">A comprehensive system designed for managing educational institutions, including features for students.</p>
+              <a href="https://sites-594c4.web.app/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2: To-Do Application -->
+        <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+          <div class="card mb-4">
+            <img src="./images/pro8.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">To-Do Application</h5>
+              <p class="card-text">A user-friendly to-do application that allows users to manage tasks with a clean and intuitive interface.</p>
+              <a href="https://devapptodo.netlify.app/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3: Password Generator -->
+        <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+          <div class="card mb-4">
+            <img src="./images/password-generator-3 (1).webp" alt="" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">A secure password generator that creates strong, random passwords to help users maintain account security.</p>
+              <a href="https://authenticationgen.netlify.app/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4: Calculator -->
+        <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
+          <div class="card mb-4">
+            <img src="./images/calculator.jpeg" class="card-img-top" alt="Calculator">
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">A simple yet effective calculator for performing basic arithmetic operations with a user-friendly interface.</p>
+              <a href="https://friendlycalculate.netlify.app/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </section>
+
+  <section id="sec-5">
+    <div class="container">
+      <div class="contact-wrap text-center mb-5">
+        <p class="about"  data-aos="fade-up">CONTACT US</p>
+        <h3 class="heading" data-aos="fade-up">Feel free to reach out.!</h3> 
+      </div>
+      <div class="contact-form">       
+          <form id="contactForm"  data-aos="fade-up">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required minlength="3" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="formMessage" class="mt-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+  <div class="footer-wrap">
+    <img src="./images/ik47.png" alt="logo" class="footer-logo">
+    <p>COPYRIGHT © 2024 CV DNX EMPIRE.</p>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+      disable: function() {
+        let maxWidth = 767; 
+        return window.innerWidth < maxWidth;
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
